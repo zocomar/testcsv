@@ -15,4 +15,3 @@ dbDisconnect(mysqlconnection)
 plazas<-subset(df, medida=="Nº de plazas ofertadas")
 print(plazas)
 barplot (plazas$valor, main = "anual", ylab = "Plazas Of.", col = "blue", names.arg = plazas$rama, las = 2) # nolint
- 

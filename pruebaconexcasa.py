@@ -1,5 +1,5 @@
 # conectar a la base de datos mysql y hacer una consulta
-import mysql.connector
+import mysql.connector 
 from mysql.connector import errorcode
 # datos de conexion
 config = {  
